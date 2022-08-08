@@ -1,9 +1,9 @@
 import React from "react";
+import Login from "../pages/session/login";
 
 function App() {
-    return ( <div>hello</div>
-        //<Login></Login>
-
+    return (
+      <Login></Login>
     );
 }
 

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -36,8 +38,11 @@
     ]
   },
   "devDependencies": {
+    "@mui/material": "^5.9.3",
     "autoprefixer": "^10.4.8",
     "postcss": "^8.4.16",
+    "prop-types": "^15.8.1",
+    "react-material-ui-form-validator": "^3.0.1",
     "tailwindcss": "^3.1.8"
   }
 }
