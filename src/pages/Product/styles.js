@@ -1,4 +1,3 @@
-/*
 export const styleSheet = {
     container: {
         // backgroundColor:'red',
@@ -29,4 +28,4 @@ export const styleSheet = {
 
     },
 
-}*/
+}

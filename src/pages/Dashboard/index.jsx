@@ -3,6 +3,15 @@ import Widget from "../../components/common/widgets";
 import {Grid} from "@mui/material";
 
 class Dashboard extends Component {
+    constructor(props) {
+        super(props);
+        this.state={
+            product:'',
+            users:'',
+            cart:''
+        }
+    }
+
     render() {
         return (
             <Grid container gap={5} item className={'h-screen pt-28 px-5'}>
