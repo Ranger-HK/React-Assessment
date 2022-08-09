@@ -8,6 +8,7 @@ import {withStyles} from "@mui/styles";
 import {styleSheet} from "./style";
 import CommonButton from "../Button";
 import {Link} from "react-router-dom";
+import Login from "../../../pages/Session/login";
 
 class NavBar extends Component {
     constructor(props) {
@@ -62,14 +63,6 @@ class NavBar extends Component {
             >
                 <DialogTitle style={{paddingRight: "0px"}}>
                     <div style={{display: "flex"}}>
-                        <Typography
-                            variant="h4"
-                            component="div"
-                            className="font-bold flex-grow"
-                            style={{flexGrow: 1}}
-                        >
-                            Login
-                        </Typography>
 
                         <IconButton onClick={() => this.setState({open: false})}>
                             <CloseIcon/>
@@ -77,7 +70,7 @@ class NavBar extends Component {
                     </div>
                 </DialogTitle>
                 <DialogContent dividers>
-                    {/*<LoginUser />*/}
+                  <Login></Login>
                 </DialogContent>
             </Dialog>
         </AppBar>);
